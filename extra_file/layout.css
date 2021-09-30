@@ -1,0 +1,169 @@
+/*
+body {
+background:#ff0000;
+}
+*/
+html *{
+margin:0px;
+padding:0px;
+
+}
+.navbar{
+    height:50px;
+    width:100vw;
+    background-color:black;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-family:Arial,Helvetica,sans-serif;
+    
+
+}
+.navbar ul{
+    list-style-type:none;
+    width:100%;
+}
+.navbar ul li {
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+    height:50px;
+/*    background-color:red;*/
+    line-height:47px;
+    
+}
+.navbar a:hover{
+    text-decoration:underline;
+}
+.navbar ul li:hover{
+    background-color:#a1a1a1;
+    cursor:pointer;
+}
+.banner{
+    width:100vw;
+    height:auto;
+    background-color:cadetblue;
+    position:relative;
+}
+.banner img{
+    width:100vw;
+    height:50vw;
+    z-index:100;
+}
+.banner .banner-text{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+    z-index:101;
+
+}
+.banner-text p {
+    margin:20px;
+    color:white;
+}
+.banner-text-header{
+    font-size:1.5em;
+}
+
+.band-container{
+    width:100vw;
+    height: 540px;
+    background-color:white;
+    
+}
+
+.band-container h2{
+    color:black;
+    text-align:center;
+    margin-top:50px;
+    font-weight:200;
+    font-size:2.2em;
+    text-transform:uppercase;
+    
+}
+
+.band-container p{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight:100;
+    font-size:1.2em;
+    text-transform:uppercase;
+    
+}
+.band-container p.band-container-subtitle{
+        color:#666;
+}
+.band-container p.band-container-content{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.band-members{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:red;
+    overflow:hidden;
+    margin-bottom:50px;    
+    
+}
+.band-members ul{
+    width:100%;
+    list-style-type:none;
+    height:100%;
+    
+}
+.band-members ul li{
+    float:left;
+    width:33%;
+    
+}
+.band-members ul li img{
+    width:200px;
+    height:200px;
+}
+
+.tour-date-container{
+    width:100vw;
+    height:300px;
+    background-color:black;
+    color:white;
+}
+
+.tour-date-container h2{
+    color:black;
+    text-align:center;
+    margin-top:50px;
+    font-weight:200;
+    font-size:2.2em;
+    text-transform:uppercase;
+    
+}
+
+.tour-date-container p{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight:100;
+    font-size:1.2em;
+    text-transform:uppercase;
+    
+}
+.tour-date-container p.tour-date-container-subtitle{
+        color:#666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
