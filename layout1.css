@@ -6,6 +6,7 @@ html * {
   height: 60px;
   width: 100vw;
   background-color: rgb(37, 157, 173);
+  overflow: auto;
 }
 .navbar a {
   color: white;
@@ -117,6 +118,7 @@ html * {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: contain;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 50px;
@@ -131,6 +133,7 @@ html * {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: contain; */
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
